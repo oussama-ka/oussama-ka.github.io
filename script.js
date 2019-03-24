@@ -281,7 +281,7 @@ $(window).scroll(function() {
       $({countNum: $this.text()}).animate({
           countNum: countTo
         },{
-          duration: 4000,
+          duration: 2000,
           easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));
